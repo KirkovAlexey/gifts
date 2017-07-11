@@ -23,6 +23,8 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specifed\" && exit 1"
   }
 }
