@@ -6,6 +6,7 @@
   "author": "KirkovAlexey <kirkov.alexey@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/react": "^3.1.8",
     "babel-loader": "^7.1.1",
     "eslint": "^4.2.0",
     "eslint-plugin-destructuring": "^2.1.0",
@@ -19,5 +20,9 @@
     "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
