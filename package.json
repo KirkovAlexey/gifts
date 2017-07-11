@@ -1,15 +1,23 @@
 {
   "name": "gifts",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": "git@github-learning:KirkovAlexey/gifts.git",
+  "author": "KirkovAlexey <kirkov.alexey@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^7.1.1",
+    "eslint": "^4.2.0",
+    "eslint-plugin-destructuring": "^2.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.1.0",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github-learning:KirkovAlexey/gifts.git"
-  },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }
